@@ -1,0 +1,55 @@
+# Site settings
+title: "Urban Planning Portfolio"
+description: "A showcase of my urban planning projects, research, and experiences."
+baseurl: "" # The subpath of your site, e.g. /blog
+url: "https://yourusername.github.io" # The base hostname & protocol for your site
+
+# GitHub settings
+repository: yourusername/your-repo-name # The GitHub repository containing your site
+
+# Build settings
+markdown: kramdown
+theme: jekyll-theme-dinky
+
+# Author settings
+author:
+  name: "Your Name"
+  email: "your.email@example.com"
+  twitter: yourtwitterhandle
+  github: yourusername
+  linkedin: your-linkedin-profile
+
+# Plugins (if needed)
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# Header navigation links
+header_pages:
+  - about.md
+  - projects.md
+  - research.md
+  - contact.md
+
+# Footer settings
+footer:
+  email: your.email@example.com
+  linkedin: https://linkedin.com/in/your-linkedin-profile
+  twitter: https://twitter.com/yourtwitterhandle
+  github: https://github.com/yourusername
+
+# Other optional settings
+social_links:
+  - name: Twitter
+    url: https://twitter.com/yourtwitterhandle
+    icon: fa fa-twitter
+  - name: LinkedIn
+    url: https://linkedin.com/in/your-linkedin-profile
+    icon: fa fa-linkedin
+  - name: GitHub
+    url: https://github.com/yourusername
+    icon: fa fa-github
+
+# Pagination settings
+paginate: 5 # Number of posts per page
+paginate_path: "/page:num/"
