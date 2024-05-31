@@ -2,10 +2,10 @@
 title: "Urban Planning Portfolio"
 description: "A showcase of my urban planning projects, research, and experiences."
 baseurl: "" # The subpath of your site, e.g. /blog
-url: "https://yourusername.github.io" # The base hostname & protocol for your site
+url: "https://mhaydan.github.io" # The base hostname & protocol for your site
 
 # GitHub settings
-repository: yourusername/your-repo-name # The GitHub repository containing your site
+repository: mhaydan/mhaydan.github.io # The GitHub repository containing your site
 
 # Build settings
 markdown: kramdown
@@ -25,7 +25,7 @@ plugins:
   - jekyll-seo-tag
 
 # Header navigation links
-header_pages:
+#header_pages:
   - about.md
   - projects.md
   - research.md
