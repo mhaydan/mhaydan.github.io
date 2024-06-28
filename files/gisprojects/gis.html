@@ -86,7 +86,7 @@
   </head>
   <body>
     <div class="container">
-      <div class="loading-message">Please wait, the page is loading...</div>
+      <div class="loading-message" id="loadingMessage">Please wait, the page is loading...</div>
       <br />
       <h4>WebMap, Nizhny Novgorod/RU</h4>
       <h2>Cities Building Culture, RWTH Aachen University</h2>
@@ -183,5 +183,13 @@
         <a href="../../index.html">Return to Main Page</a>
       </div>
     </div>
+    <script>
+    window.onload = function() {
+      var loadingMessage = document.getElementById('loadingMessage');
+      if (loadingMessage) {
+        loadingMessage.style.display = 'none';
+      }
+    };
+  </script>
   </body>
 </html>
