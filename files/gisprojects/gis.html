@@ -81,12 +81,22 @@
       font-size: 18px;
       margin-top: 20px;
       color: #666666;
+      display: flex;
+      align-items: center;
+      }
+      .loading-symbol {
+      margin-left: 10px;
+      width: 20px;
+      height: 20px;
       }
     </style>
   </head>
   <body>
     <div class="container">
-      <div class="loading-message" id="loadingMessage">Please wait, the page is loading...</div>
+      <div class="loading-message" id="loadingMessage">
+        Please wait, the page is loading...
+        <img class="loading-symbol" src="Loading.gif" alt="Loading Symbol" />
+      </div>
       <br />
       <h4>WebMap, Nizhny Novgorod/RU</h4>
       <h2>Cities Building Culture, RWTH Aachen University</h2>
