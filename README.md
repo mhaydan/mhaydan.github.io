@@ -6,7 +6,7 @@ This portfolio showcases a collection of creative and technical projects authore
 
 ## Copyright and Licensing
 
-&copy; 2024 Mehmet Haydan. All rights reserved.
+&copy; 2025 Mehmet Haydan. All rights reserved.
 
 The content of this repository is protected by copyright laws and international treaties. Unauthorized reproduction, distribution, or use of this work, or any portion thereof, may result in severe civil and criminal penalties, and will be prosecuted to the maximum extent possible under the law.
 
